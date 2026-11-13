@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="20dp" android:background="#F5F7FB" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:text="Mes contacts" android:textSize="28sp" android:textStyle="bold" android:textColor="#1F2D45" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingBottom="6dp"/>
+    <TextView android:text="Touchez un contact pour afficher sa fiche." android:textSize="15sp" android:textColor="#65738A" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingBottom="16dp"/>
+    <ListView android:id="@+id/contactList" android:divider="#E3E8F0" android:dividerHeight="1dp" android:background="#FFFFFF" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
